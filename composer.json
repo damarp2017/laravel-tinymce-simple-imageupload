@@ -34,16 +34,16 @@
       "php": ">=7.0"
   },
   "autoload": {
-      "psr-4": {
-          "Damarp2017\\Tinymce\\": "src"
-      }
+    "psr-4": {
+      "Petehouston\\Tinymce\\": "src/"
+    }
   },
   "extra": {
-      "laravel": {
-          "providers": [
-              "Damarp2017\\Tinymce\\TinymceServiceProvider"
-          ]
-      }
+    "laravel": {
+      "providers": [
+        "Petehouston\\Tinymce\\TinymceServiceProvider"
+      ]
+    }
   },
   "funding": [
       {
